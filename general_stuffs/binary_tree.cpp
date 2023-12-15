@@ -232,6 +232,10 @@ class binary_tree {
             auto d = diameter_optimized_approach_helper(this->root);
             cout<<"Diameter of binary tree (optimized approach): "<<d.second<<endl;
         }
+
+        ~binary_tree() {
+            delete this->root;
+        }
 };
 
 int main () {

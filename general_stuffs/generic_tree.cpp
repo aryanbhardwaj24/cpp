@@ -227,3 +227,16 @@ int main () {
     t.post_order_traversal();
     return 0;
 }
+
+/*
+                                Time Complexity         Space Complexity
+print_recursively                   O(n)                      O(n) //Recursive stack space
+print_levelwise                     O(n)                      O(n)
+print_levelwise_modified            O(n)                      O(n)
+count_nodes                         O(n)                      O(n) //Recursive stack space
+height                              O(n)                      O(n) //Recursive stack space
+print_nodes_at_level_K              O(k)                      O(k)
+count_leaf_nodes                    O(n)                      O(n) //Recursive stack space
+pre_order_traversal                 O(n)                      O(n) //Recursive stack space
+post_order_traversal                O(n)                      O(n) //Recursive stack space
+*/

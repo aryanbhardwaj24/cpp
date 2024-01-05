@@ -40,7 +40,7 @@ void read_file(vector<CSV_Data> &input) {
     string line;
 
     if(CSVFile.is_open()) {
-        getline(CSVFile,line);
+        // getline(CSVFile,line); //In order to avoid the first row of CSV file (uncomment if needed)
 
         while(getline(CSVFile,line)) {
             vector<string> temp = tokenise(line,',');
